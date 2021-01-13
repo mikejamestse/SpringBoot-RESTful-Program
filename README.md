@@ -4,7 +4,7 @@ An employee and employee orders management program made with a RESTful architect
 
 Written with SpringBoot/Jpa/HATEOAS.
 
-All objects data are represented with resource links instead of plain Java data. The use of HTTP methods (GET, POST, PUT and DELETE) easier data manipulation. 
+All objects data are represented with resource links instead of plain Java data. The use of HTTP methods (GET, POST, PUT and DELETE) allows easier data manipulation. 
 
 ### Reference Documentation
 For further reference, please consider the following sections:
