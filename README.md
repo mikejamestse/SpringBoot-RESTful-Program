@@ -6,6 +6,10 @@ Written with SpringBoot/Jpa/HATEOAS.
 
 All objects data are represented with resource links instead of plain Java data. The use of HTTP methods (GET, POST, PUT and DELETE) allows easier data manipulation. 
 
+Here is an example for showing all employees on the command line.
+Command : `curl -v -X GET <servername>:<portnumber>/employees | json_pp `
+![Screenshot](showEmployees.png)
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
