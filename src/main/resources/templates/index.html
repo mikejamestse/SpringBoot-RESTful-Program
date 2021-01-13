@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Employee Manager</title>
+    <script src="https://cdn.jsdelivr.net/npm/thymeleaf@0.20.3/lib/thymeleaf.node.cjs.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div id="title">
+            <h1 style="font-family: 'Verdana';">Manage Employees</h1>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h3>Add New Employee</h3>
+            </div>
+            <div class="card-body">
+                <form action="/employees" method="POST">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Role">
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
