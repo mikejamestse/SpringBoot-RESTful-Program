@@ -9,7 +9,8 @@ All objects data are represented with resource links instead of plain Java data.
 Each object contains a unique URI.
 
 Here is an example for showing all employees on the command line.
-Command : `curl -v -X GET <servername>:<portnumber>/employees | json_pp `
+Command : `curl -v -X GET <servername>:<portnumber>/employees | json_pp`\
+
 ![Screenshot](showEmployees.png)
 
 ### Reference Documentation
